@@ -23,7 +23,7 @@ print(DS_hang_hoa)
 tong_so_luong_hh = 0
 for i in range(n):
     tong_so_luong_hh += int(DS_hang_hoa[i]["So luong "])
-print(tong_so_luong_hh)
+print("Tong so luong hang hoa cua cua hang la:", tong_so_luong_hh)
 
 # Hien thi thong tin cac mat hang co so luong <10
 HH_so_luong_it = []
@@ -37,7 +37,7 @@ print("Cac mat hang co so luong < 10 la ", HH_so_luong_it)
 HH_so_luong_nhieu = []
 for i in DS_hang_hoa:
     if int(i["So luong "]) > 60:
-        HH_so_luong_it.append(i)
+        HH_so_luong_nhieu.append(i)
 
 print("Cac mat hang co so luong > 60 la ", HH_so_luong_nhieu)
 

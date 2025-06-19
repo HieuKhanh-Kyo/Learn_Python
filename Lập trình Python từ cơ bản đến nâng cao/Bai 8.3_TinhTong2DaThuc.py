@@ -15,6 +15,6 @@ def nhapDaThuc():
     return daThuc
 
 
-def hienThiDaThuc(daThuc):
-    chuoiDaThuc = ""
-    for mu in sorted(daThuc.keys()):
+# def hienThiDaThuc(daThuc):
+#     chuoiDaThuc = ""
+#     for mu in sorted(daThuc.keys()):
